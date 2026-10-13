@@ -1,0 +1,14 @@
+{
+  "width": 1240,
+  "height": 680,
+  "lon_min": -83.2,
+  "lon_max": -77.0,
+  "lat_min": 6.6,
+  "lat_max": 10.0,
+  "units": "m",
+  "dtype": "int16-le",
+  "source": "AWS Terrain Tiles (Terrarium), Mapzen/Linux Foundation; incluye SRTM, GMTED2010, ETOPO1 y otras fuentes abiertas",
+  "zoom": 9,
+  "min": -4384.61328125,
+  "max": 6085.0
+}

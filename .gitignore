@@ -1,0 +1,5 @@
+node_modules/
+salida/tmp_audio/
+salida/tmp_video_mudo.mp4
+salida/capturas/
+salida/render.log

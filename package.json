@@ -1,0 +1,16 @@
+{
+  "name": "sismo-panama-2026-video",
+  "private": true,
+  "type": "module",
+  "description": "Recreación educativa en 3D del sismo de Panamá del 9 de octubre de 2026",
+  "scripts": {
+    "render": "node render/render.mjs",
+    "preview": "node render/serve.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}

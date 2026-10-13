@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¿Por qué tembló Panamá?</title>
+<link rel="stylesheet" href="estilo.css">
+<script type="importmap">
+{ "imports": { "three": "../node_modules/three/build/three.module.js" } }
+</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl"></canvas>
+
+  <!-- Capa fija -->
+  <div id="badge">RECREACIÓN EDUCATIVA</div>
+  <div id="escala">Escala vertical exagerada · No representa daños</div>
+
+  <!-- Etiquetas proyectadas desde el mapa 3D -->
+  <div id="labels"></div>
+
+  <!-- Escena 1: título -->
+  <div id="titulo" class="panel">
+    <div class="kicker">Sismo del 9 de octubre de 2026</div>
+    <h1>¿Por qué<br>tembló<br><span>Panamá?</span></h1>
+  </div>
+
+  <!-- Escena 2: datos verificados -->
+  <div id="datos" class="panel card">
+    <div class="card-title">Datos del sismo</div>
+    <div class="row" data-at="0"><b>Fecha</b><span>Viernes 9 de octubre de 2026</span></div>
+    <div class="row" data-at="0.8"><b>Hora local</b><span>12:56 p. m. (17:56 UTC)</span></div>
+    <div class="row big" data-at="1"><b>Magnitud</b><span>7,7 <small>Mww</small></span></div>
+    <div class="row big" data-at="2"><b>Profundidad</b><span>≈ 12,6 km</span></div>
+    <div class="row" data-at="2"><b>Epicentro</b><span>7,587° N · 80,769° O<br>Península de Azuero</span></div>
+    <div class="foot">Solución revisada del USGS (evento us6000u18k). Las cifras preliminares de otras agencias variaron.</div>
+  </div>
+
+  <!-- Escena 3: corte -->
+  <div id="corte-tit" class="panel chip">Corte del terreno</div>
+  <div id="leyenda-ondas" class="panel legend">
+    <div><i class="p"></i>Ondas P · más rápidas</div>
+    <div><i class="s"></i>Ondas S · sacuden más</div>
+  </div>
+
+  <!-- Escena 4: mecanismo -->
+  <div id="mec-tit" class="panel chip">¿Qué ocurre en la roca?</div>
+  <div id="mec-pasos" class="panel steps">
+    <div data-at="0"><em>1</em>Se acumula tensión durante años</div>
+    <div data-at="1"><em>2</em>La roca se rompe y se desliza de golpe</div>
+    <div data-at="1.4"><em>3</em>La energía viaja en ondas</div>
+  </div>
+  <div id="mec-nota" class="panel note">Esquema genérico: no representa una falla específica. La falla que originó este sismo sigue en estudio.</div>
+
+  <!-- Escena 5: fuentes -->
+  <div id="fuentes" class="panel card">
+    <div class="card-title">Fuentes</div>
+    <ul>
+      <li><b>USGS</b> · Servicio Geológico de EE. UU.<br><span>M 7.7 – 12 km WSW of Pitaloza Arriba, Panama (us6000u18k)</span></li>
+      <li><b>IGC-UP</b> · Instituto de Geociencias, Universidad de Panamá<br><span>sismosgeociencias.up.ac.pa</span></li>
+      <li><b>Relieve</b> · AWS Terrain Tiles (SRTM, GMTED2010, ETOPO1)</li>
+      <li><b>Fronteras</b> · Natural Earth</li>
+    </ul>
+    <div class="foot">Recreación educativa. Las escenas son ilustrativas y no muestran daños reales. Datos consultados el 13 de octubre de 2026.</div>
+  </div>
+
+  <div id="fade"></div>
+</div>
+
+<div id="controls">
+  <button id="play">▶ Reproducir con narración</button>
+  <input id="scrub" type="range" min="0" max="1000" value="0">
+</div>
+
+<script type="module" src="escena.js"></script>
+</body>
+</html>

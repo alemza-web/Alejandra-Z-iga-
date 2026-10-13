@@ -1,0 +1,87 @@
+{
+  "nota": "text = subtítulo en pantalla; tts = texto que lee la voz (números escritos en palabras). Cada escena dura lo que dura su narración más 'pausa' segundos.",
+  "escenas": [
+    {
+      "id": "titulo",
+      "pausa": 0.9,
+      "frases": [
+        {
+          "text": "¿Por qué tembló Panamá?",
+          "tts": "¿Por qué tembló Panamá?"
+        },
+        {
+          "text": "Veamos qué pasó bajo nuestros pies.",
+          "tts": "Veamos qué pasó bajo nuestros pies."
+        }
+      ]
+    },
+    {
+      "id": "epicentro",
+      "pausa": 0.8,
+      "frases": [
+        {
+          "text": "El viernes 9 de octubre de 2026, a las 12:56 del mediodía,",
+          "tts": "El viernes nueve de octubre de dos mil veintiséis, a las doce y cincuenta y seis del mediodía,"
+        },
+        {
+          "text": "un sismo de magnitud 7,7 sacudió Panamá, según el Servicio Geológico de Estados Unidos.",
+          "tts": "un sismo de magnitud siete coma siete sacudió Panamá, según el Servicio Geológico de Estados Unidos."
+        },
+        {
+          "text": "El epicentro estuvo en la península de Azuero, y el foco, a unos 12,6 kilómetros de profundidad.",
+          "tts": "El epicentro estuvo en la península de Azuero, y el foco, a unos doce coma seis kilómetros de profundidad."
+        }
+      ]
+    },
+    {
+      "id": "corte",
+      "pausa": 0.6,
+      "frases": [
+        {
+          "text": "Hagamos un corte del terreno.",
+          "tts": "Hagamos un corte del terreno."
+        },
+        {
+          "text": "El hipocentro, o foco, es el punto bajo tierra donde empezó la ruptura.",
+          "tts": "El hipocentro, o foco, es el punto bajo tierra donde empezó la ruptura."
+        },
+        {
+          "text": "El epicentro es el punto de la superficie justo encima.",
+          "tts": "El epicentro es el punto de la superficie justo encima."
+        },
+        {
+          "text": "Del foco salen ondas sísmicas: primero las P, más rápidas; luego las S, que sacuden más.",
+          "tts": "Del foco salen ondas sísmicas: primero las ondas pe, más rápidas; luego las ondas ese, que sacuden más."
+        }
+      ]
+    },
+    {
+      "id": "mecanismo",
+      "pausa": 0.6,
+      "frases": [
+        {
+          "text": "¿Y por qué ocurre? Las rocas acumulan tensión durante años.",
+          "tts": "¿Y por qué ocurre? Las rocas acumulan tensión durante años."
+        },
+        {
+          "text": "Cuando la tensión supera su resistencia, se rompen y se deslizan de golpe, liberando energía en ondas.",
+          "tts": "Cuando la tensión supera su resistencia, se rompen y se deslizan de golpe, liberando energía en ondas."
+        },
+        {
+          "text": "Qué falla exacta se movió aún está en estudio.",
+          "tts": "Qué falla exacta se movió aún está en estudio."
+        }
+      ]
+    },
+    {
+      "id": "fuentes",
+      "pausa": 2.2,
+      "frases": [
+        {
+          "text": "Esta fue una recreación educativa con datos del USGS y del Instituto de Geociencias de la Universidad de Panamá.",
+          "tts": "Esta fue una recreación educativa con datos del U ese ge ese y del Instituto de Geociencias de la Universidad de Panamá."
+        }
+      ]
+    }
+  ]
+}
